@@ -2,10 +2,7 @@ import './Form.css';
 import React,{useState} from 'react';
 
 const Form=(props)=>{
-  // const [currentSavings, setCurrentSavings] = useState(0);
-  // const [yearlyContribution, setYearlyContribution] = useState(0);
-  // const [expectedReturn, setExpectedReturn] = useState(0);
-  // const [duration, setDuration] = useState(0);
+  
 
   const [form,setForm]=useState(
     {
