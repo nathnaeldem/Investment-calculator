@@ -2,6 +2,7 @@ import './Table.css'
 
 
 const Table=(props)=>{
+
 return(
 <table className="result">
         <thead>
@@ -17,10 +18,10 @@ return(
           {
           props.data.map((yearlyData)=>(
           <tr>
-            <td>{ console.log(yearlyData.year)}</td>
+            <td>{yearlyData.year}</td>
             <td>{yearlyData.savingsEndOfYear}</td>
             <td>{yearlyData.yearlyInterest}</td>
-            <td>{yearlyData.ysavingsEndOfYear-props.Initial-yearlyData.yearlyContribution* yearlyData.year}</td>
+            <td>{yearlyData.savingsEndOfYear - props.Initial - yearlyData.yearlyContribution * yearlyData.year}</td>
             <td>{yearlyData.yearlyInterest}</td>
           </tr>
          )
