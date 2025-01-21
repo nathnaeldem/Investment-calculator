@@ -9,7 +9,7 @@ const bot = new Telegraf(BOT_TOKEN);
 
 
 // WebSocket server URL
-const WS_URL = 'wss://gray-neighborly-plain.glitch.me/'; // Replace with your WebSocket server URL
+const WS_URL = 'wss://hill-knowing-fright.glitch.me/'; // Replace with your WebSocket server URL
 
 // WebSocket client
 const ws = new WebSocket(WS_URL, {
